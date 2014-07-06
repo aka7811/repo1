@@ -1,0 +1,37 @@
+{
+    "description" : "edit_j",
+    "type" : "object",
+    "properties" : {
+        "id" : {
+            "type" : "string",
+            "required" : true,
+            "minLength" :1
+        },
+
+        "item":{
+		"type" : "object",
+		"properties" : {
+				"address" : {
+					"type" : "string",
+					"required" : true,
+					"minLength" :1
+				},
+				"eidikotita" : {
+				  "type" : ["string", "null"],
+					"required" : false
+				},
+				"name" : {
+					 "type" : ["string", "null"],
+					"required" : false
+				},
+				"phone" : {
+					"type" : ["string", "null"],
+					"required" : false
+				}
+				  
+            } 
+           
+        }
+     
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "description" : "create_j",
+    "type" : "object",
+    "properties" : {
+        
+
+        "item":{
+		"type" : "object",
+		"properties" : {
+				"name" : {
+					"type" : "string",
+					"required" : true,
+					"minLength" :1
+				},
+				"price" : {
+				  "type" : "number",
+					"required" : false,
+					"minimum":0
+				},
+				"available" : {
+					"type" : "string",
+					"required" : true,
+					"minLength" :1
+				}
+				 
+				  
+            }  
+           
+        }
+     
+    }
+}

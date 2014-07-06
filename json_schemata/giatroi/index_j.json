@@ -1,0 +1,35 @@
+{
+    "description" : "index_j",
+    "type" : "object",
+    "properties" : {
+	        "offset" : {
+	            "type" : "integer",
+	            "required" : true
+	        },
+
+	        "pattern":{
+			"type" : "object",
+			"properties" : {
+					"address" : {
+						"type" : "string",
+						"required" : false
+					},
+					"eidikotita" : {
+					  "type" : "string",
+						"required" : false
+					},
+					"name" : {
+						"type" : "string",
+						"required" : false
+					},
+					"email" : {
+						"type" : "string",
+						"required" : false
+					}
+					  
+	            } 
+	           
+	        }
+     
+    }
+}

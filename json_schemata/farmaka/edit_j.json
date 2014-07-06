@@ -1,0 +1,35 @@
+{
+    "description" : "edit_j",
+    "type" : "object",
+    "properties" : {
+        "id" : {
+            "type" : "string",
+            "required" : true,
+			"minLength" :1
+
+        },
+
+        "item":{
+		"type" : "object",
+		"properties" : {
+				"name" : {
+					"type" : "string",
+					"required" : false
+				},
+				"price" : {
+				  "type" : "number",
+					"required" : false,
+					"minimum":0
+				},
+				"available" : {
+					"type" : "string",
+					"required" : false
+				}
+				 
+				  
+            } 
+           
+        }
+     
+    }
+}

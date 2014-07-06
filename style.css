@@ -1,0 +1,20 @@
+  .navbar-nav>li:hover  {
+ border-bottom: solid 2px red;
+    
+ }
+  .navbar-nav>li   {
+ border-bottom: solid 2px black;
+    
+ }
+ 
+ .my-error
+ {
+ color:lightpink;
+ }
+ 
+ td  {font-size:70%}
+  th  {font-size:85%}
+ 
+ .full-button{width:100%;margin-bottom:10px;}
+ .seperator{margin-bottom:40px;}
+ .seperator-up{margin-top:40px;}

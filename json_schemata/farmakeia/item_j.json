@@ -1,0 +1,16 @@
+{
+    "description" : "item_j",
+    "type" : "object",
+    "properties" : {
+        "id" : {
+            "type" : "string",
+            "required" : true,
+            "minLength" :1
+        }
+
+        
+           
+        }
+     
+    
+}

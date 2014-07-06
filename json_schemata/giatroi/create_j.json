@@ -1,0 +1,14 @@
+{
+    "description" : "create_j",
+    "type" : "object",
+    "properties" : {
+        "user_email" : {
+            "type" : "string",
+            "required" : true,
+            "format": "email"
+        }
+
+       
+     
+    }
+}

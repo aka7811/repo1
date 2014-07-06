@@ -1,0 +1,14 @@
+  <div class="panel panel-primary" >
+  
+		  <div class="panel-heading">{{options().headingText}}</div>
+
+  		  <div class="panel-body">
+  		  <div ng-show="indexer.items.length<1" class="{{options().errorClass}}">{{options().noneText}} </div>
+		  <div  ng-show="indexer.items.length>=1">
+		 <div ng-transclude></div>
+		  </div>
+
+		    <my-pagination indexer='indexer' /> 
+		 	</div> 
+  			<div class="panel-footer text-right" style="color:gray"  >{{options().footerText}}</div>
+	</div> 

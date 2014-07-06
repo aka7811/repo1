@@ -1,0 +1,8 @@
+
+<ul class="pagination">
+	 
+   <li ng-repeat="offset in indexer.offset_array track by $index" class='{{offset.active?"active":""}}'>
+      
+      <a href="" ng-click= "indexer.get_items(offset.offset, indexer.current_pattern)"> {{$index+1}} </a> 
+    </li>
+</ul>

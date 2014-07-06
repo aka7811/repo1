@@ -1,0 +1,10 @@
+<div class="row" style="margin-bottom:15px"><div class="col-md-12" >   
+<ol class="nav nav-pills" ng-init="links = options().links">
+  	 
+ <li  ng-repeat="link in links" ng-class="{' active ': link.active}">
+ <a href="{{link.address}}"  > {{link.title}} </a>
+ </li>
+ 
+</ol>
+</div> 
+</div> 

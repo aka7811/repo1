@@ -1,0 +1,44 @@
+{
+    "description" : "create_j",
+    "type" : "object",
+    "properties" : {
+         
+
+        "diagnoseis":{
+			"type" : "array",
+			"items": {
+					  "type": "object",
+					  "properties":{ "id":{"type" : "string","required":true}}
+					  }
+					 
+					 ,  "minItems": 1
+			
+		},
+		
+		"asfalismenos" : {
+					  "type": "object",
+					  "properties":{ "id":{"type" : "string","required":true}}
+		
+		},
+		
+		"slines":{
+			"type" : "array",
+			"items": {
+					  "type": "object",
+					  "properties":{ 
+					  "dosologia" :{"type" : "number","required":true,"minimum": 0 },
+					  "amount"    :{"type" : "number","required":true,"minimum": 0 },
+					  "farmako"   :{"type" : "objext","required":true, "properties":{ "id":{"type" : "string","required":true} } }
+					  }
+					  }
+					 
+					 ,  "minItems": 1
+			
+		}
+		
+		 		  
+		} 
+           
+}
+     
+ 
