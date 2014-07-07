@@ -16,8 +16,10 @@ Source code:
   γίνεται με action remapper (σε όλον τον controller) αντί τοπικά σε κάθε action
   
   AngularJs : Υπάρχει ένα script file με όλον τον κώδικα Angular. Ξεχωριστοί "controllers" (στην Angular στην ουσία controller 
-  είναι κάτι σαν τα ViewModel του WPF. Ο κώδικας ίσως πρέπει να χωριστεί αλλά η διαχείριση όλων των αρχείων include θα ήταν λίγο 
+  είναι κάτι σαν τα ViewModel του WPF). Ο κώδικας ίσως πρέπει να χωριστεί σε ξεχωριστά αρχεία ώστε και τα components να είναι πιο         reusable αλλά η διαχείριση όλων των αρχείων include θα ήταν λίγο 
   error prone για ένα άτομο. 
+  Τα components που έχω φτιάξει είναι : breadrcumbs, edit fields με clear button, πλαίσια για διάφορες λειτουργίες, alert message,
+  loading indicator κ.α.
   
   Υπάρχει ένας controller angular για κάθε view της εφαρμογής. Και μερικοί που απλοποιούνε την ρύθμιση κώδικα bootsrap
   ώστε να γίνεται με ένα μόνο tag (πχ bootstrap breadcrumbs που αλλάζουν live στον client και που δεν χρειάζεται γραμμές ολόκληρες
